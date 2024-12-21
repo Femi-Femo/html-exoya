@@ -1,0 +1,148 @@
+ /* General body styling */
+ body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    background: url(./images/exoya\ image.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+
+    /* background: linear-gradient(to right, #ffefba, #ffc776); */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 96%;
+    max-width: 1900px;
+    background-color: #ffb84d;
+    background: linear-gradient(to right, #FFC145, #d1700f);
+    opacity: .9;
+    padding: 20px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; */
+}
+.header {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(56, 44, 44);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+.vision-mission {
+    width: 40%;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.vision, .mission {
+    padding: 15px;
+    /* border-radius: 5px; */
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 1.6;
+}
+.vision {
+    background-color: #f0781090;
+    /* height: 150px; */
+    
+}
+.mission {
+    background-color: #9ee05c;
+    padding-bottom: 0px;
+}
+.section-title {
+    font-weight: bold;
+    background-color:  rgb(247, 193, 43);
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.mission > .section-title{
+    background-color: rgb(202, 159, 16);
+}
+
+.vision-content, .mission-content {
+    font-size: 30px;
+    text-align: center;
+}
+
+hr{
+border: 2px dashed white;
+margin: 20px 0px 0px;
+
+}
+
+footer{
+text-align: right;
+font-size: 10px;
+
+}
+
+.logo {
+    width: 35%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 251, 0, 0.644);
+    border-top: 50px solid #b4c75a99;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.logo img {
+    width: 75%;
+    /* max-width: 200px; */
+    border-radius: 80px;
+}
+
+/* Media Query for screens with max-width 600px */
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .vision-mission {
+        width: 100%;
+
+    }
+    .logo {
+        width: 100%;
+        height: 100%;
+        /* margin-top: 20px; */
+        border-top: 15px solid #b4c75a99;
+    }
+    .logo img {
+        /* max-width: 150px; */
+        width: 45%;
+        border-radius: 10%;
+        margin: 10px 0px;
+
+    }
+    .header {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .vision-content, .mission-content {
+    font-size: 20px;
+}        
+
+svg{
+    width: 16px;
+    height: 16px;
+}
+
+}
